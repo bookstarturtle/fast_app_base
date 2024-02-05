@@ -170,7 +170,7 @@ class _MenuDrawerState extends State<MenuDrawer> {
                     boxShadow: [context.appShadows.buttonShadowSmall]),
                 child: Row(
                   children: [
-                    const Width(10),
+                    width10,
                     DropdownButton<String>(
                       items: [
                         menu(currentLanguage),
