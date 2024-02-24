@@ -18,10 +18,11 @@ final notificationDummies = <TtossNotification>[
     NotificationType.tossPay,
       '이번주에 영화 한편 어때요?CGV 할인 쿠폰이 도착했어요',
       DateTime.now().subtract(27.minutes),
+    // isRead: true,
   ),
   TtossNotification(
     NotificationType.tossPay,
       '이번주에 영화 한편 어때요?CGV 할인 쿠폰이 도착했어요',
-      DateTime.now().subtract(27.minutes),
+      DateTime.now().subtract(1.minutes),
   ),
 ];
